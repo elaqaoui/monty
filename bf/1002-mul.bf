@@ -18,5 +18,4 @@
 
 ++++[>++++[>+++<-]<-]   # Adding 48 / 0x30 / '0' to cell(2), cell 2 has the result
 
->>.                      # Print result (go to cell 2 and print)
-
+>.                       # Print result (go to cell 2 and print)
