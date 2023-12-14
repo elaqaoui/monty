@@ -1,5 +1,9 @@
+>,>,<               # Input two numbers
 
->,>,< #Getting two numbers
-[>+<-]> # Adding numbers In asscii values
-<<++++[>++++++++++<-]++[>++++<-]> # Getting zero
-[>-<-]>. # subtracting 48  the ascii sum
+[                   # Start of loop
+  >+<-              # Add the numbers (result in the first cell)
+]                   # End of loop
+
+<<++++[>++++++++++<-]++[>++++<-]>   # Set the second cell to zero
+[>-<-]>.            # Subtract 48 (ASCII value of '0') and output the result
+

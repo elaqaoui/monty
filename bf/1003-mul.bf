@@ -1,5 +1,5 @@
-read from stdin
->, >, <<
+>,>,<<                 # Read two integers from stdin
+
 convert atoi
 +++++ +
 [
@@ -7,12 +7,14 @@ convert atoi
  >----- ---
  <<-
 ]
+
 multiply two integers
 >[
  >[>+>+<<-]
  >[<+>-]
  <<-
 ]
+
 separate two digits inputed
 >[-]>+> >+++++ +++++<
 [
@@ -21,6 +23,7 @@ separate two digits inputed
 ]
 <-
 <+++++ +++++>>>[-<<<->>>]<<<
+
 convert itoa
 <+++++ +
 [
@@ -28,6 +31,7 @@ convert itoa
  [+++++ +++>]
  <[<]>-
 ]
+
 print with newline
 >>[.<<]<[<<]>>.
->>,. 
+>>,.
